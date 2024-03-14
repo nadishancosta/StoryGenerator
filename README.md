@@ -13,5 +13,12 @@ Initial set of requirements for this model are as follows:
 3. Continue generation after user approval of initial generation
 4. Regenerate story if user is not approving of initial generation
 
-Hencer, various other models were reviewed for their performance. Obviously GPT-4 performed exceptionally well in writing stories.
-Initial exploration into GPT-2 showed promising performance with downstream tasks provided suffcient finetuning.
+Hencer, various other models were reviewed for their performance. Obviously GPT-4 performed exceptionally well in writing stories. However, I wanted to create a tool that is accessible and free for everyone with a computer and an internet connection.
+
+This meant the model needed to be lightweight enough to run on the free versions of online tools like Colab.
+
+
+Initial exploration into GPT-2 showed promising performance with downstream tasks (provided suffcient finetuning). Additionally, GPT-2 is very lightweight and efficient in its performance on minimal hardware. This meant the model could be downloaded locally and used as needed offline.
+
+This remains true for the training process as well.
+
